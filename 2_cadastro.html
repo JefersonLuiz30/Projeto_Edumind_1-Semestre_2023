@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Cadastro - Edumind</title>
+
+  <link href="2_cadastro.css" rel="stylesheet" type="text/css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+
+  <main>
+
+    <div class="esquerda">
+
+      <h2>Com a mente em paz, <br><span>você pode mais!</span></h2>
+
+    </div>
+
+
+    <div class="direita">
+
+      <h1>Crie seu usúario</h1>
+
+      <label>Nome</label>
+      <input type="text" class="login" name="login" maxlength="30" required>
+
+      <label>CPF</label>
+      <input type="text" class="login" name="login" placeholder="000.000.000-00" maxlength="11" required>
+
+      <label>Telefone</label>
+      <input type="tel" class="login" name="login" placeholder="(00)00000-0000" required>
+
+      <label>E-mail</label>
+      <input type="text" class="login" name="login" placeholder="Exemplo@hotmail.com" maxlength="30" required>
+
+      <label>Senha </label>
+      <input type="password" class="senha" name="senha" maxlength="20">
+
+      <p>Conter 8 caracteres, contendo ao menos 1 letra e 1 número</p>
+
+      <fieldset class="selcao_box">
+        <legend class="legend">Selecione uma das opções abaixo</legend>
+
+        <div>
+          <input type="radio" name="usuario">
+          <label>R.A - Aluno</label>
+          <input class="aluno" type="number">
+        </div>
+
+        <div>
+          <input type="radio" name="usuario">
+          <label> ANEP- Professor</label>
+          <input class="prof" type="number">
+          <!-- Fazer uma caixa onde passa o numero da CNP(Carteira nacional do professor) -->
+        </div>
+
+        <div>
+          <input type="radio" name="usuario">
+          <label>CNP - Psicólogo</label>
+          <input class="psico" type="number">
+          <!-- Se for psicolo fazer uma caica onde pessa credencial que seria o numero de registro CRP(Conselho regional de psicologo) -->
+        </div>
+
+
+      </fieldset>
+
+      <div class="botoes">
+
+
+
+        <button type="submit" class="b_criar">Voltar</button>
+        <button type="reset" class="b_voltar">Criar</button>
+
+      </div>
+
+
+
+
+    </div>
+  </main>
+
+
+</body>
+
+</html>

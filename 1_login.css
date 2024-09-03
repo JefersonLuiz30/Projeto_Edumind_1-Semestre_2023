@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family= Montserrat :wght@800 & display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+/* Imagen de fundo */
+
+body {
+  background-image: url(/img/Login_Edumind.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+
+/* Frase */
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+span {
+  color: blueviolet;
+  font-size: 50px;
+}
+
+.esquerda {
+  width: 50%;
+}
+
+h1 {
+  color: blueviolet;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+
+/* Form login Inicio*/
+
+main {
+  display: flex;
+  width: 1600px;
+}
+
+.direita {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-right: 450px;
+}
+
+/* Inicio Formulario */
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px;
+  margin-top: 25px;
+  color: blueviolet;
+}
+
+#login,
+#senha {
+  padding: 10px;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  background: transparent;
+}
+
+/* link de cadastro e recuperação */
+
+p {
+  margin-top: 10px;
+  color: blueviolet;
+}
+
+a {
+  font-size: 17px;
+  font-family: Verdana, sans-serif;
+  text-decoration: none;
+  color: blueviolet;
+  align-self: flex-end;
+}
+
+.link:hover {
+  transition: 0.5s;
+  opacity: 0.7;
+}
+
+/* Botão */
+
+#button {
+  font-weight: bold;
+  color: white;
+  background-color: rgb(64, 64, 214);
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 15px;
+  padding-left: 180px;
+  padding-right: 180px;
+  border: 1px;
+  box-shadow: 10px 5px 5px rgb(64, 64, 214);
+
+}
+
+/* Logo */
+
+.logo {
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 280px;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Edumind - Psicólogos</title>
+
+    <link rel="stylesheet" href="4_psico.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <img src="/logo/logo-edumind-branco.png" alt="logo" class="logo">
+
+        <a href="1_login.html" class="sair">Sair</a>
+
+        <img src="/icons/usuario.png" alt="usuario" class="usuario">
+
+
+
+    </header>
+    <!-- Menu navegaçao -->
+
+    <nav class="nav">
+
+        <ul>
+            <li>
+                <form action="4_psicologo.html">
+                    <button class="btpsicologos"> <img src="/icons/icon_Psicologos.png" alt="icone_psicologo"
+                            class="iconpsicologo"> </button>
+                    <p><span class="nome_icon">Psicólogos</span></p>
+
+                </form>
+            </li>
+
+            <li>
+                <form action="5_agendamento.html">
+                    <button class="btcalendario"> <img src="/icons/icon_agenda.png" alt="icone_calendario"
+                            class="iconcalendario"> </button>
+                    <p><span class="nome_icon">Agenda</span></p>
+
+                </form>
+            </li>
+
+            <li>
+                <form action="6_chamdavideo.html">
+                    <button class="btvideo"> <img src="/icons/icon_video.png" alt="icone_video" class="iconvideo">
+                    </button>
+                    <p><span class="nome_icon">Consulta</span></p>
+
+                </form>
+
+            </li>
+
+
+        </ul>
+
+    </nav>
+
+    <!-- Seção onde tem o conteudo -->
+
+    <section class="psico">
+
+        <!-- header para pesquisar -->
+
+        <div class="psico-header">
+            <div>
+                <h1>Psicólogos</h1>
+            </div>
+
+            <div class="search-box">
+
+                <!-- barra de pesquisa -->
+
+                <a href="#" class="search-btn">
+                    <img src="/icons/lupa.svg" alt="uma lupa de pesquisa na cor preta em fundo branco">
+                </a>
+                <input type="text" name="pesquisa" class="search-txt" placeholder="Pesquisa">
+            </div>
+        </div>
+
+        <!-- INICIO CARDS DE PSICOLOGOS -->
+
+        <div class="psico-pessoas">
+            <div class="psico-pessoas-card" id="card-1">
+                <svg id="Flat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="tresp">
+                    <path
+                        d="M76,128a12,12,0,1,1-12-12A12.01375,12.01375,0,0,1,76,128Zm116-12a12,12,0,1,0,12,12A12.01375,12.01375,0,0,0,192,116Zm-64,0a12,12,0,1,0,12,12A12.01375,12.01375,0,0,0,128,116Z" />
+                </svg>
+                <img src="/icons/usuario.png" alt="" class="image">
+                <p>Nome: Victória Schneider</p>
+                <p>CRP: 07/38971 RS</p>
+                <p>Psicanaálise</p>
+                <p>Psicologia Clinica</p>
+
+                <button class="btAgendar">Agendar</button>
+
+            </div>
+
+            <div class="psico-pessoas-card" id="card-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="tresp">
+                    <path
+                        d="M76,128a12,12,0,1,1-12-12A12.01375,12.01375,0,0,1,76,128Zm116-12a12,12,0,1,0,12,12A12.01375,12.01375,0,0,0,192,116Zm-64,0a12,12,0,1,0,12,12A12.01375,12.01375,0,0,0,128,116Z" />
+                </svg>
+                <img src="/icons/usuario.png" alt="" class="image">
+                <p>Nome: Adalberto Silva</p>
+                <p>CRP: 03/23371 BA</p>
+                <p>Behaviorismo</p>
+                <p>T. Cognitiva Compartamental</p>
+
+                <button class="btAgendar">Agendar</button>
+
+            </div>
+
+            <div class="psico-pessoas-card" id="card-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="tresp">
+                    <path
+                        d="M76,128a12,12,0,1,1-12-12A12.01375,12.01375,0,0,1,76,128Zm116-12a12,12,0,1,0,12,12A12.01375,12.01375,0,0,0,192,116Zm-64,0a12,12,0,1,0,12,12A12.01375,12.01375,0,0,0,128,116Z" />
+                </svg>
+                <img src="/icons/usuario.png" alt="" class="image">
+                <p>Nome: Beatriz Pereira</p>
+                <p>CRP: 0837728 PR</p>
+                <p>Psicanálise</p>
+                <p>Psicologia Clínica</p>
+
+                <button class="btAgendar">Agendar</button>
+
+            </div>
+
+            <div class="psico-pessoas-card" id="card-4">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="tresp">
+                    <path
+                        d="M76,128a12,12,0,1,1-12-12A12.01375,12.01375,0,0,1,76,128Zm116-12a12,12,0,1,0,12,12A12.01375,12.01375,0,0,0,192,116Zm-64,0a12,12,0,1,0,12,12A12.01375,12.01375,0,0,0,128,116Z" />
+                </svg>
+                <img src="/icons/usuario.png" alt="" class="image">
+                <p>Nome: Gabrielli Marques</p>
+                <p>CRP: 1222126 SC</p>
+                <p>T. cognitivo Comportamental</p>
+
+                <button class="btAgendar">Agendar</button>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+        <!-- FIM CARDS PSICOLOGOS -->
+
+    </section>
+
+</body>
+
+</html>

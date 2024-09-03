@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family= Montserrat :wght@800 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+/* Imagen de fundo */
+
+header {
+    background: blueviolet;
+    width: auto;
+    height: 45px;
+}
+
+body {
+    overflow: auto;
+}
+
+/* Logo branca */
+
+.logo {
+    width: 125px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+/* INICIO DE ONDE MECHI NO CONTEUDO */
+
+/* INICIO DIVS PRINCIPAIS */
+.psico {
+    background: rgb(241, 239, 239);
+    width: 1285px;
+    float: right;
+
+}
+
+.psico-header {
+    margin: 25px 40px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.psico-header h1 {
+    border-bottom: 3px solid blue;
+    margin: 0 0 0 10px;
+
+}
+
+.psico-pessoas {
+    margin: 25px 0 0 30px;
+    width: 95%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+/* FIM DIVS PRINCIPAIS */
+
+/* INICIO BARRA DE PESUISA */
+.search-box {
+
+    background-color: rgba(190, 190, 236, 0.767);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 55%;
+    height: 30px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.search-txt {
+    width: 95%;
+    height: 24px;
+    border: none;
+    line-height: 24px;
+    padding: 0 6px;
+    background: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 10pt;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(108, 108, 248);
+}
+
+.search-btn>img {
+    margin: 4px 4px 0 4px;
+}
+
+/* FIM BARRA DE PESQUISA */
+
+
+/* INICIO DOS CONTEUDOS DOS CARDS */
+.image {
+    border-radius: 5px;
+    background-color: darkgray;
+    width: 110px;
+    height: 110px;
+}
+
+.tresp {
+    width: 20px;
+    height: 20px;
+    align-self: flex-end;
+    margin-right: 20px;
+}
+
+/* FIM DOS CONTEUDOS DOS CARDS */
+
+
+/* INICIO CARDS PART BRANCA*/
+.psico-pessoas-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 0;
+    width: 250px;
+    height: 300px;
+    margin: 20px 10px 20px 10px;
+    background-color: #fff;
+    border: 0.8px solid #7c7a7aab;
+}
+
+.btAgendar {
+    background: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0px;
+}
+
+.psico-pessoas-card p {
+    margin-bottom: 8px;
+
+}
+
+.card-grow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    width: 1000px;
+    height: 500px;
+}
+
+/* FIM CARDS */
+
+
+/* FIM ONDE EU MECHI NO CONTEUDO */
+
+/* lllllllllllllllllllllllllllllllllll */
+
+/* Menu lateral esquerdo */
+
+.nav {
+    float: left;
+}
+
+.btvideo,
+.btchat,
+.btpsicologos,
+.btcalendario {
+    background-color: transparent;
+    border: 0px;
+    opacity: 0px;
+    margin-left: 4px;
+}
+
+.iconvideo,
+.iconchat,
+.iconpsicologo,
+.iconcalendario {
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 40px;
+}
+
+/* Sair */
+
+.sair {
+    font-size: 20px;
+    margin-left: 965px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.usuario {
+
+    width: 35px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 100px;
+}
+
+.nome_icon {
+    font-size: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+}

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family= Montserrat :wght@800 & display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Montserrat;
+}
+
+/* Imagen de fundo */
+
+header {
+    background: blueviolet;
+    width: auto;
+    height: 45px;
+}
+
+
+/* Logo branca */
+
+.logo {
+    width: 125px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+/*  Fundo Branco  */
+.fundo_total {
+    background: rgb(241, 239, 239);
+    width: 1285px;
+    float: right;
+}
+
+.psico {
+    background: rgb(241, 239, 239);
+    width: 1285px;
+    float: right;
+
+}
+
+.video-header {
+    margin: 25px 40px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video-header h1 {
+    border-bottom: 3px solid blueviolet;
+    margin: 0 0 0 2px;
+
+}
+
+/* .video-pessoas {
+    margin: 25px 0 0 30px;
+    width: 95%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+} */
+
+.nav {
+    float: left;
+}
+
+.btvideo,
+.btchat,
+.btpsicologos,
+.btcalendario {
+    background-color: transparent;
+    border: 0px;
+    opacity: 0px;
+    margin-left: 4px;
+}
+
+.iconvideo,
+.iconchat,
+.iconpsicologo,
+.iconcalendario {
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 40px;
+}
+
+/* Video chamada 1 */
+
+#video1 {
+    background-image: url(/img/videochamada1.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    width: 400px;
+    height: 270px;
+    margin-left: 10px;
+    /* border: 3px gray solid; */
+}
+
+/* Video chamada 2 */
+
+#video2 {
+    background-image: url(/img/videochamada2.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    width: 400px;
+    height: 270px;
+    margin-left: 10px;
+    /* border: 3px gray solid; */
+    margin-top: -17px;
+}
+
+/* botoes da chamada de video */
+.bt_f_chamada,
+.bt_exp_chamada,
+.bt_min_chamada,
+.bt_mudo {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 0px;
+    opacity: 0px;
+    margin-top: 220px;
+    margin-left: 2px;
+
+}
+
+/* imagem do botao */
+.icon_f_chamada,
+.icon_exp_chamada,
+.icon_min_chamada,
+.icon_mudo {
+    width: 30px;
+    height: 30px;
+    margin-left: 100px;
+}
+
+/* Conversa Fundo do ler mensagem*/
+
+#conversa {
+
+    width: 840px;
+    height: 549px;
+    background-color: transparent;
+    float: right;
+    /* border: 3px gray solid; */
+    margin-right: 2px;
+    margin-top: -500px;
+}
+
+
+/* Conversa ler mensagem */
+
+#conversa2 {
+    background-color: white;
+    margin-top: 5px;
+    border: 3px gray solid;
+    width: 780px;
+    height: 350px;
+    margin-left: 25px;
+}
+
+/* Conversa editar mensagem */
+
+.conversa {
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 550px;
+    height: 100px;
+    font-size: 25px;
+    text-align: center;
+    border: 3px gray solid;
+}
+
+/* BotÃ£o */
+
+.btanexo,
+.btenviar {
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(64, 64, 214);
+    border-radius: 15px;
+    margin-top: 30px;
+    border: 1px;
+
+}
+
+/* Sair */
+
+.sair {
+    font-size: 20px;
+    margin-left: 965px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.usuario {
+
+    width: 35px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 100px;
+}
+
+.nome_icon {
+    font-size: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+/*Fim Calendario*/
