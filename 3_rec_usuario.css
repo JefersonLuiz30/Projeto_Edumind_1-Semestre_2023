@@ -9,7 +9,7 @@
 /* Imagen de fundo */
 
 body {
-  background-image: url(/img/Login_Edumind.jpg);
+  background-image: url(./img/Login_Edumind.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   overflow: hidden;

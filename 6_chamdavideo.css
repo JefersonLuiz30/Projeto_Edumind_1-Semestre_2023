@@ -89,7 +89,7 @@ header {
 /* Video chamada 1 */
 
 #video1 {
-    background-image: url(/img/videochamada1.jpg);
+    background-image: url(./img/videochamada1.jpg);
     background-repeat: no-repeat;
     background-size: 300px;
     background-position: center;
@@ -102,7 +102,7 @@ header {
 /* Video chamada 2 */
 
 #video2 {
-    background-image: url(/img/videochamada2.jpg);
+    background-image: url(./img/videochamada2.jpg);
     background-repeat: no-repeat;
     background-size: 300px;
     background-position: center;
